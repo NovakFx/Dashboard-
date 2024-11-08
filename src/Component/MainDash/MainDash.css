@@ -1,0 +1,62 @@
+.MainDash{
+  display: grid;
+  flex-direction: column ;
+  justify-content: space-evenly;
+  margin-left: 1.5rem;
+  padding-top: 1.4rem;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  column-gap: 23rem;
+ 
+}
+
+.sabrina{
+  font-weight: bold;
+  font-size: 1.2rem;
+
+}
+.sabrina.cap{
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+
+.input>input{
+  border-radius: 1rem;
+  padding-left: 8px;
+  margin-top: 0.5rem;
+}
+
+
+.Cards{
+  width: 45rem;
+display: flex;
+gap: 10px;
+}
+
+
+@media screen and (max-width:1200px) {
+  .MainDash{
+    justify-content: flex-start;
+    margin-top: 1.6rem;
+  }
+
+  .Cards{
+    flex-direction: column;
+  }
+
+  .See{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .MainDash{
+    align-items: center;
+    margin-left: 2%;
+  }
+}

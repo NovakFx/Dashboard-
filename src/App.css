@@ -1,0 +1,41 @@
+.App{
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main{
+  display: grid;
+  height: 98%;
+  width: 98%;
+  border-radius: 1rem;
+  background-color: rgba(251, 251, 251, 1);
+  grid-template-columns: 17rem auto 27rem;  
+  
+}
+
+
+@media screen and (max-width:1200px) {
+  .main{
+    grid-template-columns: 13% 35% 45%;
+    overflow-y: scroll;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .main{
+    grid-template-columns: 1fr;
+    
+  }
+
+  .main::-webkit-scrollbar{
+    display: none;
+  }
+
+  
+
+}

@@ -1,0 +1,103 @@
+.Outer-iv{
+  background-color: #fff;
+  /* width: 115%; */
+  padding: 20px;
+  position: relative;
+}
+
+.button2{
+  position: absolute;
+  top: 40px;
+  left: 35px;
+  background: #fff;
+  color: black;
+  opacity: 85%;
+}
+
+
+.ux1{
+  background-color: rgba(242, 242, 241, 1);
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.ux2{
+  background-color: rgba(242, 242, 241, 1);
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.ux3{
+ background-color: rgba(242, 242, 241, 1);
+ padding: 8px;
+ font-size: 12px;
+ border-radius: 10px;                         
+}
+
+.lesson{
+  padding-top: 20px;
+  
+}
+
+.time{
+  display: flex;
+  gap: 39px;
+}
+
+.man{
+  width: 45px;
+  /* margin-top: 15px; */
+}
+
+.oils{
+  margin-top: 9px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+}
+
+.join{
+  align-items: center;
+  display: flex;
+  gap: 110px;
+
+}
+
+.but{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.spa{
+  font-weight: bold;
+}
+
+.spa>span{
+  font-size: 10px;
+  font-weight: normal;
+}
+
+/* .parent{
+  width: 100%;
+} */
+
+
+@media screen and (max-width:1200px) {
+  .Outer-iv{
+    width: 23rem;
+  }
+  
+
+  .Div-ux-1{
+    padding: 0rem;
+  }
+  .Div-ux-2{
+    padding: 0rem;
+  }
+  .Div-ux-3{
+    padding: 0rem;
+  }
+
+
+  
+}

@@ -1,0 +1,112 @@
+.bgDiv{
+  background-color: #fff;
+  border-radius: 3%;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.chartBody{
+  size: 30%;
+}
+
+span>img{
+  margin: 0%;
+}
+
+.chartNum{
+  position: relative;
+}
+
+.num1{
+  position: absolute;
+  top: 70%;
+  left: 6%;
+  background: rgba(250, 250, 250, 1);
+  padding: 6px;
+  padding-top: 7px;
+  padding-left: 5px;
+  font-weight: 700;
+  padding-right: 5px;
+  border-radius: 1000000%;
+}
+
+.num2{
+  position: absolute;
+  top: 6%;
+  left: 45%;
+  background: rgba(250, 250, 250, 1);
+  padding: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 10000%;
+  font-weight: 700;
+}
+
+.num3{
+  position: absolute;
+  top: 70%;
+  left: 85%;
+  background: rgba(250, 250, 250, 1);
+  padding: 7px;
+  font-weight: 700;
+  padding-left: 2px;
+  padding-right: 1px;
+  border-radius: 1000000%;
+}
+
+.num4{
+  position: absolute;
+  top: 39%;
+  left: 47%;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.num5{
+  position: absolute;
+  top: 53%;
+  left: 44%;
+}
+
+.circleRed1{
+  background-color: red;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  
+}
+.circleRed2{
+  background-color: yellow;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  
+}
+.circleRed3{
+  background-color: #0f0;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  
+}
+
+.status{
+  margin-top: 3%;
+  display: flex;
+  gap: 50px;
+}
+
+.status>span{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+@media screen and (max-width:1200px) {
+  .status{
+    gap: 20px;
+  }
+}

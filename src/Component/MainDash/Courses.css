@@ -1,0 +1,78 @@
+.See{
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 70%;
+  color: rgba(43, 148, 214, 1);
+}
+
+.course{
+  margin-top: 0.4rem;
+  height: 6.7rem;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.inner{
+  display: flex;
+}
+
+.Img{
+  display: flex;
+  padding-top: 0.7rem;
+  padding-left: 0.5rem;
+  width: 15%;
+  padding-bottom: 0.5rem;
+}
+
+
+
+.men{
+  grid-row: 2;
+  margin-left: 20px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.Ui{
+  font-weight: bold;
+}
+
+.percent{
+  align-items: center;
+}
+
+@media screen and (max-width:1200px) {
+  .Rightside{
+   width: 46rem;
+   margin-bottom: 0.3rem;
+  }
+
+  /* .men{
+
+  } */
+}
+
+@media screen and (max-width: 768px){
+  .course{
+    height: 5.5rem;
+  }
+
+  .Img{
+    display: flex;
+    padding-left: 0.5rem;
+    width: 9%;
+    height: 5%;
+  }
+
+  .Ui{
+    font-size: 15px;
+  }
+
+  .men{
+    line-height: 10px;
+    font-size: 13px;
+    margin-left: 12px;
+  }
+  
+
+}

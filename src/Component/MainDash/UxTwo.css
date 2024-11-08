@@ -1,0 +1,111 @@
+.parent{
+  height: 23rem;
+}
+
+.Outer2{
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  height: 23.5rem;
+}
+
+.button5{
+  position: absolute;
+  top: 48px;
+  left: 44px;
+  background: #fff;
+  color: black;
+  opacity: 85%;
+}
+
+
+.webBut1{
+  background-color: rgba(242, 242, 241, 1);
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 10px;
+  
+}
+.webBut2{
+  background-color: rgba(242, 242, 241, 1);
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.webBut3{
+  background-color: rgba(242, 242, 241, 1);
+ padding: 8px;
+ font-size: 12px;
+ border-radius: 10px;
+}
+
+.lesson{
+  padding-top: 20px;
+}
+
+.man3{
+  width: 45px;
+  margin-top: 15px;
+}
+
+.man2{
+  width: 20rem;
+}
+
+.oil{
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+}
+
+.joi{
+  align-items: center;
+  display: flex;
+  gap: 93px;
+
+}
+
+.bu{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.spa{
+  font-weight: bold;
+}
+
+.spa>span{
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.parent{
+  width: 100%;
+}
+
+
+.time1{
+  display: flex;
+  gap: 31px;
+}
+
+
+@media screen and (max-width:1200px) {
+  .Outer2{
+    width: 23rem;
+    /* height: 1vh; */
+  }
+
+  .webBut1{
+    padding: 0rem;
+  }
+  .webBut2{
+    padding: 0rem;
+  }
+  .webBut3{
+    padding: 0rem;
+  }
+
+
+ 
+}
