@@ -1,27 +1,27 @@
-import React, { useState } from 'react'
-import './Sidebar.css'
+import React, { useState } from 'react';
+import './Sidebar.css';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import GroupsIcon from '@mui/icons-material/Groups';
 import TextsmsIcon from '@mui/icons-material/Textsms';
 import Assessment from '@mui/icons-material/Assessment';
-import Settings from '@mui/icons-material/Settings';
+// import Settings from '@mui/icons-material/Settings';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   const [selected, setSelected] = useState(0);
 
   const menuItems = [
-    { icon: <DashboardIcon />, label: "Dashboard" },
-    { icon: <LibraryBooksIcon />, label: "Assignment" },
-    { icon: <GroupsIcon />, label: "Mentors" },
-    { icon: <TextsmsIcon />, label: "Message" },
-    { icon: <Assessment />, label: "Insight" },
-    { icon: <Settings />, label: "Settings" }
+    { icon: <DashboardIcon />, label: "Dashboard", path: "/" },
+    { icon: <LibraryBooksIcon />, label: "Assignment", path: "/AssData" },
+    { icon: <GroupsIcon />, label: "Mentors", path: "/mentors" },
+    { icon: <TextsmsIcon />, label: "Message", path: "/message" },
+    { icon: <Assessment />, label: "Insight", path: "/insight" },
+    // { icon: <Settings />, label: "Settings", path: "/settings" },
   ];
 
   return (
     <div className="Sidebar">
-
       <div className="logo">
         <img src="images/Logo.png" alt="" />
         <span>MILESTONE <br /> ACADEMY</span>
@@ -29,14 +29,15 @@ const Sidebar = () => {
 
       <div className="menu">
         {menuItems.map((item, index) => (
-          <div
-            key={index}
-            className={`menuItem ${selected === index ? 'active' : ''}`}
-            onClick={() => setSelected(index)}
-          >
-            <div className="icon">{item.icon}</div>
-            <span>{item.label}</span>
-          </div>
+          <Link to={item.path} key={index} style={{ textDecoration: 'none' }}>
+            <div
+              className={`menuItem ${selected === index ? 'active' : ''}`}
+              onClick={() => setSelected(index)}
+            >
+              <div className="icon">{item.icon}</div>
+              <span>{item.label}</span>
+            </div>
+          </Link>
         ))}
       </div>
 
@@ -53,7 +54,6 @@ const Sidebar = () => {
           Upgrade
         </button>
       </div>
-
     </div>
   );
 };

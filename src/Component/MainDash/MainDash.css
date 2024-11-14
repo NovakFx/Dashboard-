@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   margin-left: 1.5rem;
   padding-top: 1.4rem;
+  height: fit-content;
 }
 
 .input{
@@ -14,11 +15,13 @@
 }
 
 .sabrina{
+  margin-top: 0.5rem;
   font-weight: bold;
   font-size: 1.2rem;
 
 }
 .sabrina.cap{
+  margin-top: 1rem;
   font-weight: bold;
   font-size: 1.2rem;
   line-height: 3rem;

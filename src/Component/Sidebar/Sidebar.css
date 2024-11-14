@@ -3,6 +3,7 @@
   flex-direction: column;
   position: relative;
   padding-top: 2rem;
+  height: auto;
   transition: all 300ms ease;
   background-color: rgba(217, 217, 217, 0.2);
 }
@@ -106,10 +107,15 @@ button{
 } */
 
 @media screen and (max-width:1200px) {
+
+  .menuItem{
+    overflow-x: hidden;
+  }
+
   .menuItem>span{
     display: none;
   }
-
+ 
   .menu{
     gap: 4rem;
   }

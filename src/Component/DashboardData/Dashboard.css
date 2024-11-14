@@ -1,0 +1,15 @@
+.head{
+  display: grid;
+  grid-template-columns: auto 27rem;
+
+}
+
+
+
+@media screen and (max-width:1200px) {
+  .head{
+    display: grid;
+    grid-template-columns: 40% 30%;
+    overflow-x: hidden;
+  }
+}

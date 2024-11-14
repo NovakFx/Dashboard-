@@ -9,18 +9,17 @@
 
 .main{
   display: grid;
-  height: 98%;
+  height: 100vh;
   width: 98%;
   border-radius: 1rem;
   background-color: rgba(251, 251, 251, 1);
-  grid-template-columns: 17rem auto 27rem;  
+  grid-template-columns: 17rem auto; 
   
 }
 
-
 @media screen and (max-width:1200px) {
   .main{
-    grid-template-columns: 13% 35% 45%;
+    grid-template-columns: 13% auto;
     overflow-y: scroll;
   }
   
@@ -39,3 +38,5 @@
   
 
 }
+
+

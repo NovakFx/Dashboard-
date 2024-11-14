@@ -8,7 +8,7 @@ const Courses = () => {
   return (
     <div className='Rightside'>
 
-      <h1>Continue Course  <span className='See'>See All</span></h1>
+      <h1 className='edris'>Continue Course  <span className='See'>See All</span></h1>
 
       <div className='course'> 
         <div className='inner'>
@@ -23,6 +23,27 @@ const Courses = () => {
           
         </div>
       </div>
+
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
+      Lorem, ipsum dolor.
 
       {/* <div className='course'> 
         <div className='inner'>

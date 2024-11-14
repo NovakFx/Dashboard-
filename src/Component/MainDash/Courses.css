@@ -1,8 +1,13 @@
+.Rightside{
+  margin-top: 3.5rem;
+}
+
 .See{
   font-size: 16px;
   font-weight: normal;
   margin-left: 70%;
   color: rgba(43, 148, 214, 1);
+  
 }
 
 .course{
@@ -24,7 +29,9 @@
   padding-bottom: 0.5rem;
 }
 
-
+.edris{
+  font-weight: bolder;
+}
 
 .men{
   grid-row: 2;
