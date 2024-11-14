@@ -40,7 +40,7 @@ function CalendarForum() {
             <div
               key={index}
               style={{
-                height: '65px',
+                height: '56px',
                 padding: '7px',
                 backgroundColor: isToday ? '#FFD700' : '',
                 color: isToday ? '#000' : isPrevMonthDay ? 'rgba(0, 0, 0, 0.3)' : '',

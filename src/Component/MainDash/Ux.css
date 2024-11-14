@@ -15,6 +15,12 @@
 }
 
 
+.Image68:hover{
+transform: scale(1.09);
+border-radius: 1rem;
+cursor: pointer;
+}
+
 .ux1{
   background-color: rgba(242, 242, 241, 1);
   padding: 8px;

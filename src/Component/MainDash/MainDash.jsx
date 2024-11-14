@@ -19,7 +19,7 @@ const MainDash = () => {
 
         <div>
           <p className='sabrina'>Ichigo kurosaki</p>
-          <p className='sabrina cap'>Features Course  <span className='See'>See All</span></p>
+          <p className='sabrina cap'>Featured Course  <span className='See'>See All</span></p>
           </div>
 
        <div className='cardsParent'>  

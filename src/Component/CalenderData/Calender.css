@@ -52,6 +52,11 @@
 .my{
   display: flex;
   gap: 13rem;
+  margin-top: 0.1rem;
+}
+
+.chart{
+  margin-top: 0.2;
 }
 
 .my>h1{

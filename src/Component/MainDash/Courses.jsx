@@ -24,28 +24,7 @@ const Courses = () => {
         </div>
       </div>
 
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-      Lorem, ipsum dolor.
-
-      {/* <div className='course'> 
+     {/* <div className='course'> 
         <div className='inner'>
           <div className='Img'>
             <img src="images/group79.png" alt="" />
@@ -58,6 +37,7 @@ const Courses = () => {
           
         </div>
       </div> */}
+
     </div>
   )
 }

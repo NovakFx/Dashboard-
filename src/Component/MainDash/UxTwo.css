@@ -18,6 +18,11 @@
   opacity: 85%;
 }
 
+.image69:hover{
+  transform: scale(1.1);
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
 
 .webBut1{
   background-color: rgba(242, 242, 241, 1);

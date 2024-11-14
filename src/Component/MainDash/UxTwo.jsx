@@ -6,9 +6,10 @@ const UxTwo = () => {
     <div className='parent'>
       
     <div className='Outer2'> 
+      <div className="image69">
       <img className='man2' src="images/image69.png" alt="" />
       <button className='button5'>Web Developer</button>
-
+      </div>
       <div className='lesson'>
       <div className='time1'>
           <h1 className='webBut1'>18 Lesson</h1>

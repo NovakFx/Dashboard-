@@ -7,9 +7,10 @@ const Ux = () => {
       
       <div className='Outer-iv'> 
         <div className='bodi'>
+          <div className='Image68'>
         <img src="images/image68.png" alt="" />
         <button className='button2'>Class UX design</button>
-
+        </div>
         <div className='lesson'>
           <div className='time'>
           <div  className='ux1'><h1>18 Lesson</h1></div>

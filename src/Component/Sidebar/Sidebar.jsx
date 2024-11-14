@@ -40,19 +40,22 @@ const Sidebar = () => {
           </Link>
         ))}
       </div>
-
+        <div className="Group145">
       <div className="sideImage" style={{ position: 'relative' }}>
         <img src="images/group145.png" alt="" />
+        <span className='upgrade145'>
         <button
           style={{
             position: 'absolute',
-            top: '87px',
+            top: '89px',
             left: '15px',
             zIndex: 1,
           }}
         >
           Upgrade
         </button>
+        </span>
+      </div>
       </div>
     </div>
   );
